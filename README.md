@@ -108,7 +108,7 @@ chp-coverage-map/
 ├── data/
 ├── images/
 ├── js/
-
+```
 
 ## Updating the Map
 

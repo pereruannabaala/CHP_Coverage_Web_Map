@@ -6,7 +6,7 @@ An interactive web map showing villages covered by Community Health Promoters (C
 
 **View the map online:**
 
-👉 https://pereruannabaala.github.io/chp-coverage-map/
+https://pereruannabaala.github.io/chp-coverage-map/
 
 The map can be opened in a web browser and does not require QGIS or any GIS software.
 
@@ -25,20 +25,20 @@ Users can:
 - Zoom and pan across the Maasai Mara ecosystem.
 - Explore different facility coverage groups.
 
-## 📊 Data Included
+## Data Included
 
 The map contains the following information:
 
 | Field | Description |
 |---|---|
 | Village | Name of the mapped village |
-| Serving Facility | Health facility serving the village |
+| Facility | Health facility serving the village |
 | Latitude | Geographic latitude of the village |
 | Longitude | Geographic longitude of the village |
 
 The current map contains **101 mapped village/CHP locations**.
 
-## 🏥 Serving Health Facilities
+## Serving Health Facilities
 
 The mapped villages are associated with the following health facilities:
 
@@ -52,7 +52,7 @@ The mapped villages are associated with the following health facilities:
 - Nkaimurunya A
 - Moses Nkoitoi Link Facility Aitong
 
-## 🔎 Search Function
+## Search Function
 
 The map includes a search function that allows users to quickly locate a village.
 
@@ -65,22 +65,22 @@ For example, users can search for:
 
 After selecting a result, the map zooms to the corresponding location.
 
-## 🗺️ Mapping Methodology
+## Mapping Methodology
 
 The map was developed using:
 
 - **QGIS** – for data preparation and spatial visualization
 - **qgis2web** – for converting the QGIS project into an interactive web map
 - **Leaflet** – for displaying the interactive map in a web browser
-- **OpenStreetMap** – as the base map
+- **Google Maps(RoadMap)** – as the base map
 
 The original geographic coordinates were checked and standardized to:
 
 **CRS: EPSG:4326 – WGS 84**
 
-## ⚠️ Data and Coverage Note
+## Data and Coverage Note
 
-The health facility names are used to identify the facility serving each mapped village.
+he villages are colour-coded according to their respective serving health facility, making it easy to identify and distinguish the coverage areas on the map.
 
 The health facilities themselves were not provided with GPS coordinates in the source dataset. Therefore, the map should **not be interpreted as showing the physical locations of the health facilities**.
 
@@ -108,4 +108,34 @@ chp-coverage-map/
 ├── data/
 ├── images/
 ├── js/
-└── README.md
+
+
+## Updating the Map
+
+The map can be updated by:
+
+1. Updating the source data in QGIS.
+2. Re-exporting the map using qgis2web.
+3. Replacing the files in this repository with the new qgis2web output.
+4. Committing and pushing the changes to the `main` branch.
+5. GitHub Pages will automatically redeploy the updated map.
+
+## Purpose
+
+The map is intended to support:
+
+- CHP coverage monitoring
+- Village-level planning
+- Health facility coverage visualization
+- Programme monitoring and evaluation
+- Identification of geographical coverage gaps
+- Communication and reporting
+
+## Maintainer
+
+**Pereruan Nabaala**
+
+Maasai Mara / Kenya
+
+
+

@@ -6,7 +6,7 @@ An interactive web map showing villages covered by Community Health Promoters (C
 
 **View the map online:**
 
-https://pereruannabaala.github.io/chp-coverage-map/
+https://pereruannabaala.github.io/CHP_Coverage_Web_Map/#9/-1.3006/35.5318
 
 The map can be opened in a web browser and does not require QGIS or any GIS software.
 

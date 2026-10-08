@@ -88,7 +88,7 @@ The points shown on the map represent the mapped villages/CHP locations.
 
 Facility groupings indicate the reported serving facility for each village and should not be interpreted as official administrative or geographic catchment boundaries.
 
-## 🌐 Sharing the Map
+## Sharing the Map
 
 Because the map is hosted using GitHub Pages, it can be shared through a web link.
 
@@ -98,7 +98,7 @@ Users do not need to install QGIS or any other GIS software.
 
 https://pereruannabaala.github.io/chp-coverage-map/
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 chp-coverage-map/
